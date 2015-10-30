@@ -1,0 +1,11 @@
+<template name="pagination">
+    {{#if totalPages}}
+        <ul class="pagination">
+            <li><a href="#">«</a></li>
+            {{#each pages}}
+                <li class="pages"><a href="#" data-page-number="{{pageNumber}}">{{ pageNumber }}</a></li>
+            {{/each}}
+            <li><a href="#">»</a></li>
+        </ul>
+    {{/if}}
+</template>
