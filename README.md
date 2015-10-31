@@ -25,13 +25,14 @@ Next in you create two helpers, one for getting the paged books and the other to
 ```js
 Template.books.helpers({
     books: function () {
-        return booksPaginator.pagedItems();
+        return booksPaginator.pagedItems({});
     },
     booksPaginator: function(){
       return booksPaginator;
     }
 );
 ```
+Be sure to provide either an empty object `{}`, i.e. find all, or a mongoDB filter object, e.g. `{title: "The Holy Bible"}`, to the `pagedItems()` method.
 
 Finally in your `html` template file you can list the paged books as table rows and
 also provide a pager at the bottom as follows:
