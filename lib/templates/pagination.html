@@ -3,7 +3,7 @@
         <ul class="pagination">
             <li><a href="#">«</a></li>
             {{#each pages}}
-                <li class="pages"><a href="#" data-page-number="{{pageNumber}}">{{ pageNumber }}</a></li>
+                <li class="pages {{active}}"><a href="#" data-page-number="{{pageNumber}}">{{ pageNumber }}</a></li>
             {{/each}}
             <li><a href="#">»</a></li>
         </ul>
