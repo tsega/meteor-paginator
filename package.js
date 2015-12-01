@@ -1,6 +1,6 @@
 Package.describe({
   name: "tsega:paginator",
-  version: "1.0.7",
+  version: "1.1.2",
   summary: "Simple client-side paging.",
   git: "https://github.com/tsega/meteor-paginator",
   documentation: "README.md"
