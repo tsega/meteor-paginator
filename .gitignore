@@ -1,0 +1,5 @@
+# Ignore Webstorm project folder
+.idea/
+
+# Ignore Mac OS temp file
+.DS_Store

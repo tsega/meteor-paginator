@@ -54,7 +54,7 @@ also provide a pager at the bottom as follows:
 <template name="books">
 ...
 
-<table id="permissions-list" class="table table-striped table-hover">
+<table class="table table-striped table-hover">
   <tbody>
     {{#each books}}
         <tr>
@@ -86,3 +86,6 @@ make sure there is not template in your application with the same name.
   - Provide an option to limit the number of links to display, this is particularly
   useful when there are a large number of pages.
   - Write some test!
+
+# License
+This project is licensed under the [MIT License)](license.md).

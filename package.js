@@ -1,6 +1,6 @@
 Package.describe({
   name: "tsega:paginator",
-  version: "1.1.2",
+  version: "1.1.7",
   summary: "Simple client-side paging.",
   git: "https://github.com/tsega/meteor-paginator",
   documentation: "README.md"
@@ -10,7 +10,6 @@ Package.onUse(function(api) {
   api.versionsFrom("1.2.0.2");
 
   api.use(["ecmascript", "reactive-var", "templating", "underscore"]);
-  api.use(["twbs:bootstrap@3.3.5"], "client");
 
   api.addFiles([
     "lib/modules/paginator.js",
